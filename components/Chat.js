@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import {
     GiftedChat,
@@ -46,5 +47,5 @@ Chat.defaultProps = {
 };
 
 Chat.propTypes = {
-    name: React.PropTypes.string,
+    name: PropTypes.string,
 };
